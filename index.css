@@ -31,7 +31,7 @@ body {
   margin: 1.5em 0;
   margin-bottom: 1em;
 }
-.intro .para{
+.intro .para {
   font-size: 1.5em;
 }
 .sub-heading {
@@ -62,9 +62,16 @@ body {
   color: hsl(184, 100%, 50%);
 } */
 
-
 @media screen and (max-width: 760px) {
   .container {
-    max-width: 80vw;
+    max-width: 90vw;
+  }
+
+  .heading {
+    font-size: 2em;
+  }
+
+  .sub-heading {
+    font-size: 1.8em;
   }
 }

@@ -1,7 +1,7 @@
-const links = document.querySelectorAll('.link');
+const links = document.querySelectorAll(".link");
 
-links.forEach(link => {
-    link.setAttribute('target', "_blank")
-    link.setAttribute('noopener', "")
-    link.setAttribute('noreferrer', "")
-})
+links.forEach((link) => {
+  link.setAttribute("target", "_blank");
+  link.setAttribute("noopener", "");
+  link.setAttribute("noreferrer", "");
+});

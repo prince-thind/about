@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -13,6 +14,7 @@ body {
 
 .background-stripes {
   background-size: 56.57px 56.57px;
+  background-attachment: fixed;
   --stripe-color1: hsl(0, 0%, 3%);
   --stripe-color2: hsl(0, 0%, 1%);
   background-image: linear-gradient(
@@ -49,10 +51,6 @@ body {
 .intro-heading .heading-line {
   display: block;
 }
-/* .intro-para {
-  font-size: 1.4rem;
-  text-align: left;
-} */
 
 .accent-1 {
   color: hsl(180, 100%, 50%);
@@ -70,16 +68,8 @@ body {
   color: hsl(240, 100%, 75%);
 }
 
-@media screen and (max-width: 760px) {
-  /* .container {
-    max-width: 90vw;
+@media screen and (min-width: 760px) {
+  .container {
+    max-width: 70vw;
   }
-
-  .heading {
-    font-size: 2rem;
-  }
-
-  .sub-heading {
-    font-size: 1.8em;
-  } */
 }
